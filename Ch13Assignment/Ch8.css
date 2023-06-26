@@ -1,0 +1,43 @@
+body{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header {
+    width: 96.875%;
+    padding: 15px 1.5625%;
+}
+main {
+    width: 59.375%;
+    padding: 15px 1.5625%;
+}
+aside {
+    width: 34.375%;
+    padding: 15px 1.5625%;
+}
+footer {
+    clear: both;
+    width: 96.875%;
+    padding: 15px 1.5625%;
+}
+img {
+    width: 100%;
+    display: block;
+}
+#mobile_menu {
+    display: none;
+}
+@media only screen and (max-width: 479px) {
+    header h1 {font-size: 2.925em}
+    header h2 {font-size: 1.375em;}
+    header h3 {font-size: .8125em;}
+    p { font-size: .875em}
+    aside {font-size: .875em}
+    img {
+        width: 100%;
+        display: block;}
+    footer {font-size: .6875em}
+}
+@media print {
+    p.bodyText {font-family: Verdana, Georgia, monospace}
+}

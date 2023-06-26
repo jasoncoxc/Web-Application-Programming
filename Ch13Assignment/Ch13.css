@@ -1,0 +1,26 @@
+input:required, input[required] {
+    border: 3px solid red;
+}
+input:valid {
+    border: 1px solid black;
+}
+input:invalid {
+    box-shadow: none;
+}
+textarea {
+    height: 5em;
+    width: 25em;
+    font-family: Arial, Times, sans-serif;
+    resize: none;
+}
+form {
+    position: relative;
+    border-style: solid;
+    border-color: seagreen;
+    border-width: 2px;
+    display: inline-block;
+    padding: 1em;
+}
+label {
+    color: navy;
+}
